@@ -1,0 +1,218 @@
+@media (max-width: 800px) {
+  .block1.block {
+    .content {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      height: 100%;
+    }
+  }
+
+  .block2.block {
+    .content {
+        .block2__about_us {
+            .about__desc {
+                width: 400px;
+            }
+        }
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  
+    .block2.block {
+      .content {
+          .block2__about_us {
+
+            .about__name {
+                font-size: 18px;
+              }
+              
+            .about__desc {
+                  width: 300px;
+                  font-size: 13px;
+              }
+          }
+          .block2__info {
+            .info__name {
+                font-size: 18px;
+                margin-top: 20px;
+            }
+
+            .info__items {
+                justify-content: space-around;
+                align-items: center;
+                flex-direction: column;
+                margin-top: 0px;
+                
+
+                .info__item {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-flow: column wrap;
+                    height: 15vh;
+                    margin-top: 25px;
+                    width: 300px;
+          
+                    .item__name {
+                      color: #00a8b2;
+                      font-family: "Catamaran";
+                      text-align: center;
+                      font-size: 14px;
+                      font-weight: 700;
+                      margin-top: 14px;
+                      line-height: 20px;
+                    }
+          
+                    .item__desc {
+                      font-family: Catamaran;
+                      font-size: 12px;
+                      text-align: justify;
+                      width: 150px;
+                    }
+                  }
+          }
+      }
+    }
+  }
+
+  .block3.block {
+      flex-direction: column;
+      justify-content: space-around;
+      
+      .footer__logo{
+        margin-left: 0px;
+      }
+
+      .footer__contact {
+          margin-right: 0px;
+      }
+  }
+}
+
+@media (max-height: 700px) {
+  .block1.block {
+    .content {
+      .block1__logo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 200px;
+        margin-top: -175px;
+        margin-bottom: -200px;
+
+        img {
+          width: 100%;
+        }
+
+        .logo__text {
+          color: #333333;
+          font-family: Catamaran;
+          font-size: 14px;
+          text-align: center;
+          margin-top: 15px;
+        }
+      }
+
+      .block1__form {
+        width: 300px;
+        height: 200px;
+        margin-top: -175px;
+
+        .form__switchers {
+          .block1__form_join {
+            height: 300px;
+            width: 300px;
+
+            .form_join__name,
+            .form_join__email,
+            .form_join__pass,
+            .form_join__code {
+              height: 20px;
+            }
+          }
+
+          .block1__form_sign {
+            height: 240px;
+            width: 300px;
+            padding-top: 50px;
+            padding-bottom: 50px;
+          }
+
+          .toggle.toggle-right:checked ~ #btn2 {
+            width: 49.6%;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-height: 900px) and (max-width: 500px){
+    .block2.block {
+        .content {
+            .block2__about_us {
+    
+              .about__name {
+                  font-size: 20px;
+                }
+                
+              .about__desc {
+                    width: 300px;
+                    font-size: 15px;
+                }
+            }
+            .block2__info {
+              .info__name {
+                  font-size: 18px;
+                  margin-top: 20px;
+              }
+    
+              .info__items {
+                  justify-content: space-around;
+                  align-items: center;
+                  flex-direction: column;
+                  margin-top: 10px;
+                  
+    
+                  .info__item {
+                      display: flex;
+                      justify-content: center;
+                      align-items: center;
+                      flex-flow: column nowrap;
+                      width: 300px;
+                      height: 15vh;
+
+                      .item__img{
+                          width: 5vh;
+
+                          img{
+                              width: 100%
+                          }
+                      }
+            
+                      .item__name {
+                        color: #00a8b2;
+                        font-family: "Catamaran";
+                        text-align: center;
+                        font-size: 14px;
+                        font-weight: 700;
+                        margin-top: 14px;
+                        line-height: 20px;
+                      }
+            
+                      .item__desc {
+                        font-family: Catamaran;
+                        font-size: 12px;
+                        text-align: justify;
+                        width: 150px;
+                      }
+                    }
+            }
+        }
+      }
+    }
+}

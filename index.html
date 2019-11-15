@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="./slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css" />
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+
+  <body>
+        <div class="doc__main">
+          <div class="main__block block1 block">
+            <div class="content">
+              <div class="block1__logo">
+                <div class="logo__photo">
+                  <img src="./img/logo.png" alt="Logo" />
+                </div>
+                <div class="logo__text">Talk to people artificial language</div>
+              </div>
+              <div class="block1__form">
+                <div class="form__switchers">
+                  <input
+                    id="toggle-on"
+                    class="toggle toggle-left"
+                    name="toggle"
+                    value="false"
+                    type="radio"
+                    checked
+                  />
+                  <div class="block1__form_join">
+                    <input
+                      type="text"
+                      class="form_join__name"
+                      placeholder="Name"
+                    />
+                    <input
+                      type="email"
+                      class="form_join__email"
+                      placeholder="E-mail"
+                    />
+                    <input
+                      type="password"
+                      class="form_join__pass"
+                      placeholder="Password"
+                    />
+                    <label for="form_join__code"
+                      >If you’re the celebrity, enter the code to create a
+                      language</label
+                    >
+                    <input
+                      type="text"
+                      class="form_join__code"
+                      id="form_join__code"
+                      placeholder="Code"
+                    />
+                    <button class="form_join__button">Register now</button>
+                  </div>
+                  <input
+                    id="toggle-off"
+                    class="toggle toggle-right"
+                    name="toggle"
+                    value="true"
+                    type="radio"
+                  />
+                  <div class="block1__form_sign">
+                    <input
+                      type="email"
+                      class="form_sign__email"
+                      placeholder="E-mail"
+                    />
+                    <input
+                      type="password"
+                      class="form_sign__pass"
+                      placeholder="Password"
+                    />
+                    <button class="form_sign__button">Sign in</button>
+                  </div>
+                  <label for="toggle-on" class="btn" id="btn1">Join Us</label>
+                  <label for="toggle-off" class="btn" id="btn2">Sign In</label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="main__block block2 block">
+            <div class="content">
+              <div class="block2__about_us">
+                <div class="about__name">
+                  What is Elinguage?
+                </div>
+                <div class="about__desc">
+                  Web platform for communication using different artificial
+                  languages. New idea for your and your friends fun. Enjoy yor
+                  conversation!
+                </div>
+              </div>
+              <div class="block2__info">
+                <div class="info__name">
+                  How it works?
+                </div>
+                <div class="info__items">
+                  <div class="info__item">
+                    <div class="item__img">
+                      <img src="./img/plus.png" alt="Sign In" />
+                    </div>
+                    <div class="item__name">Start</div>
+                    <div class="item__desc">Register or sign in</div>
+                  </div>
+                  <div class="info__item">
+                    <div class="item__img">
+                      <img src="./img/translation.png" alt="Translate" />
+                    </div>
+                    <div class="item__name">Translate</div>
+                    <div class="item__desc">
+                      Write word or expression, choose the language and
+                      translate
+                    </div>
+                  </div>
+                  <div class="info__item">
+                    <div class="item__img">
+                      <img src="./img/group2.png" alt="Share" />
+                    </div>
+                    <div class="item__name">Share</div>
+                    <div class="item__desc">
+                      Share the five-letter conversation code with other
+                      members, who can use it to join your group.
+                    </div>
+                  </div>
+                  <div class="info__item">
+                    <div class="item__img">
+                      <img src="./img/idea.png" alt="Create" />
+                    </div>
+                    <div class="item__name">Create</div>
+                    <div class="item__desc">Create your own language!</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="main__block block3 block">
+            <div class="footer__logo">
+              <img src="./img/logo_white.png" alt="Logo" />
+            </div>
+            <div class="footer__contact">
+              <div class="contact__text">Connect with us</div>
+              <div class="contact__email">support@elinguage.com</div>
+            </div>
+          </div>
+        </div>
+  </body>
+
+  <script src="./js/libs/jquery.js" defer></script>
+  <script src="./slick/slick.min.js" defer></script>
+  <script src="./js/main.js" defer></script>
+
+</html>
